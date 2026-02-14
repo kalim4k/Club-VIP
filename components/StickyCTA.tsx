@@ -32,7 +32,7 @@ export const StickyCTA: React.FC = () => {
         <Button 
           variant="primary" 
           className="py-2 px-6 text-sm"
-          onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+          onClick={() => window.location.href = 'https://paypal-unlocked-africa.lovable.app/confirm'}
         >
           Rejoindre
         </Button>

@@ -4,6 +4,10 @@ import { Button } from './Button';
 import { Section } from './Section';
 
 export const Pricing: React.FC = () => {
+  const handleBuy = () => {
+    window.location.href = 'https://paypal-unlocked-africa.lovable.app/confirm';
+  };
+
   return (
     <Section id="pricing">
       <div className="text-center mb-16">
@@ -56,7 +60,13 @@ export const Pricing: React.FC = () => {
             ))}
           </ul>
 
-          <Button variant="primary" fullWidth pulse className="text-xl py-4 shadow-lg">
+          <Button 
+            variant="primary" 
+            fullWidth 
+            pulse 
+            className="text-xl py-4 shadow-lg"
+            onClick={handleBuy}
+          >
             REJOINDRE MAINTENANT
           </Button>
           <p className="text-xs text-center text-slate-500 font-bold mt-4">
