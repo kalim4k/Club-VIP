@@ -8,11 +8,13 @@ import { Testimonials } from './Testimonials';
 import { FAQ } from './FAQ';
 import { Footer } from './Footer';
 import { StickyCTA } from './StickyCTA';
+import { FeaturedPreview } from './FeaturedPreview';
 
 export const LandingPage: React.FC = () => {
   return (
     <main className="min-h-screen text-slate-900 selection:bg-gold-500 selection:text-white overflow-x-hidden">
       <Hero />
+      <FeaturedPreview />
       <ProblemSolution />
       <Gallery />
       <PreviewSection />
