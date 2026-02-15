@@ -23,6 +23,18 @@ const testimonials = [
 export const Testimonials: React.FC = () => {
   return (
     <Section darker className="border-t border-slate-200">
+      
+      {/* Added Image */}
+      <div className="flex justify-center mb-12">
+        <div className="relative rounded-xl overflow-hidden shadow-xl border-4 border-white max-w-3xl mx-auto rotate-1 hover:rotate-0 transition-transform duration-500">
+          <img 
+            src="https://celinaroom.com/wp-content/uploads/2026/02/q79MqFV3nDRuh436slnl11QoWV08Ju4GeaByTz17.avif"
+            alt="Membres du Club"
+            className="w-full h-auto object-cover"
+          />
+        </div>
+      </div>
+
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-serif font-extrabold text-slate-900">Ils ont déjà rejoint...</h2>
       </div>

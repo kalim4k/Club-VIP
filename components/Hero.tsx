@@ -29,10 +29,21 @@ export const Hero: React.FC = () => {
           </span>
         </h1>
 
-        <p className="text-xl md:text-3xl font-medium text-slate-800 mb-10 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-3xl font-medium text-slate-800 mb-8 max-w-3xl mx-auto leading-relaxed">
           Tu travailles dur. Tu veux te détendre sans stress ? <br/>
           Accède à un cercle <span className="font-extrabold text-black bg-yellow-100 px-1">fermé, filtré et sécurisé</span>.
         </p>
+
+        {/* Added Image */}
+        <div className="mb-10 flex justify-center">
+           <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white max-w-2xl mx-auto transform hover:scale-[1.02] transition-transform duration-500">
+             <img 
+               src="https://celinaroom.com/wp-content/uploads/2026/02/q97zbVFMQg7aV4HzjxSQWkDja5clG0Eb2dKtqOnT.avif" 
+               alt="Ambiance Club Privé" 
+               className="w-full h-auto object-cover"
+             />
+           </div>
+        </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
           <Button onClick={scrollToPricing} pulse className="shadow-xl shadow-gold-500/20 text-xl py-5 px-10">
