@@ -25,7 +25,7 @@ export const StickyCTA: React.FC = () => {
         <div>
           <p className="text-xs text-slate-500 uppercase font-bold">Accès VIP</p>
           <div className="flex items-center gap-2">
-            <span className="font-bold text-brand-red text-lg">2 000 FCFA</span>
+            <span className="font-bold text-brand-red text-lg">2 500 FCFA</span>
             <span className="text-xs text-slate-400 line-through">5 000</span>
           </div>
         </div>

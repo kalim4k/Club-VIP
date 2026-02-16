@@ -38,7 +38,7 @@ export const Pricing: React.FC = () => {
           <div className="mb-6 flex flex-col">
             <span className="text-slate-400 line-through text-xl font-bold">5 000 FCFA</span>
             <div className="flex items-baseline gap-2">
-               <span className="text-6xl font-black text-brand-red">2 000 FCFA</span>
+               <span className="text-6xl font-black text-brand-red">2 500 FCFA</span>
                <span className="text-base text-slate-600 font-bold">/ mois</span>
             </div>
           </div>
